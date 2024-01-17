@@ -1,0 +1,152 @@
+
+.img-grid-1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+
+}
+
+.img-grid-2{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./images/Rectangle\ 8.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    background-size: cover;
+background-position: center;
+}
+
+.text-grid{
+color: white;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+padding: 130px;
+}
+.image-text-grid{
+    width: 1170px;
+    display: flex;
+gap: 24px;
+margin: 0 auto;
+justify-content: center;
+padding-bottom: 24px;
+}
+.image-2-grid{
+    width: 1170px;
+    display: flex;
+gap: 24px;
+margin: 0 auto;
+justify-content: center;
+padding-bottom: 24px;
+}
+.img-grid-3{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    background-size: cover;
+background-position: center;
+}
+.img-grid-4{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    background-size: cover;
+background-position: center;
+}
+.img-grid-5{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    width: 274px;
+height: 286px;
+flex-shrink: 0;
+background-size: cover;
+background-position: center;
+}
+.image-container-Grid{
+    gap: 24px;
+}
+.image-3-grid{
+display: flex;
+width: 1170px;
+display: flex;
+gap: 24px;
+margin: 0 auto;
+justify-content: center;
+margin-top: 24px;
+}
+.img-grid-6{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+flex-shrink: 0;
+background-size: cover;
+background-position: center;
+}
+.img-grid-7{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+    width: 673px;
+    height: 300px;
+flex-shrink: 0;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.image-2-grid, .image-3-grid {
+    margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+    .img-grid-1, .img-grid-2, .img-grid-3, .img-grid-4, .img-grid-5, .img-grid-6, .img-grid-7 {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-grid {
+        padding: 50px 20px;
+        font-size: 20px;
+    }
+
+    .image-text-grid, .image-2-grid, .image-3-grid {
+        width: auto;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 900px) {
+    .img-grid-1, .img-grid-2, .img-grid-6, .img-grid-7 {
+        width: 573px;
+        height: 300px;
+    }
+
+    .img-grid-3, .img-grid-4, .img-grid-5 {
+        width: 374px;
+        height: 286px;
+    }
+
+    .image-text-grid, .image-2-grid, .image-3-grid {
+        width: 1170px;
+        display: flex;
+        gap: 24px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
